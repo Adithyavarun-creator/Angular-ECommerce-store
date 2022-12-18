@@ -21,7 +21,7 @@ export class CartService {
     }
     this.cart.next({ items: items });
     this._snackBar.open('1 item added to cart', 'ok', { duration: 3000 });
-    console.log(this.cart.value);
+    //console.log(this.cart.value);
   }
 
   getTotal(items: Array<CartItem>): number {
